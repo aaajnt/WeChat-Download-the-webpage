@@ -1,0 +1,63 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html;charset=utf-8"><meta name="baidu-site-verification" content="XwkzGvlFI9"><meta id="viewport" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="renderer" content="webkit"><meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><link rel="shortcut icon" type="image/x-icon" href="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"><link rel="mask-icon" href="https://res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C"><link rel="apple-touch-icon-precomposed" href="https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png"><title>微信硬件平台</title><script src="static/js/TCaptcha.js"></script><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link href="static/css/index1.css" rel="stylesheet"></head><body><div class="page page__index"><div class="banner"><div class="banner__content"><div class="nav"><div class="logo__container"><span class="logo"></span><h1 class="title" title="微信硬件平台"></h1></div><ul class="nav__extend"><li class="nav__extend__item"><a class="nav__extend__item__container" id="login" href="javascript:;">登录</a></li><li class="nav__extend__item"><a class="nav__extend__item__container" target="_blank" href="/regist">注册</a></li><li class="nav__extend__item"><a class="nav__extend__item__container" target="_blank" href="/doc">开发者中心</a></li></ul></div><div class="slogan__container"><p class="slogan" title="使用微信触达 身边的每一个角落"></p><div class="slogan__extend"><span class="slogan__extend__item">使用微信控制设备</span> <span class="slogan__extend__item">通过设备进行视频号直播</span></div></div></div></div><div class="content"><div class="section"><h2 class="section-title">支持的设备类型</h2><div class="section-body"><div class="setting-block"><span class="setting-block__icon setting-block__icon__dress"></span><p class="setting-block__title">可穿戴设备</p></div><div class="setting-block"><span class="setting-block__icon setting-block__icon__switch"></span><p class="setting-block__title">电源开关</p></div><div class="setting-block"><span class="setting-block__icon setting-block__icon__car"></span><p class="setting-block__title">汽车</p></div><div class="setting-block"><span class="setting-block__icon setting-block__icon__life"></span><p class="setting-block__title">生活电器</p></div><div class="setting-block"><span class="setting-block__icon setting-block__icon__photo"></span><p class="setting-block__title">摄影设备</p></div><div class="setting-block"><span class="setting-block__icon setting-block__icon__insert"></span><p class="setting-block__title">更多接入中</p></div></div></div><div class="section"><h2 class="section-title">接入流程</h2><div class="section-body section-body__steps"><div class="access-block"><p class="access-block__title">注册设备</p><p class="access-block__content">厂商通过微信硬件平台官网注册开发者信息</p></div><div class="access-block"><p class="access-block__title">接入平台</p><p class="access-block__content">厂商将设备接入微信硬件平台</p></div><div class="access-block"><p class="access-block__title">连接使用</p><p class="access-block__content">设备通过微信客户端或小程序，连接并投入使用</p></div></div></div><div class="section"><h2 class="section-title">合作伙伴</h2><div class="section-body teamwork-section-body"><div class="teamwork-block"><span class="teamwork-bloc__icon teamwork-bloc__icon__dajiang"></span><p class="teamwork-bloc__content">大疆</p></div><div class="teamwork-block"><span class="teamwork-bloc__icon teamwork-bloc__icon__dushulang"></span><p class="teamwork-bloc__content">读书郎</p></div><div class="teamwork-block"><span class="teamwork-bloc__icon teamwork-bloc__icon__insta"></span><p class="teamwork-bloc__content">insta360</p></div><div class="teamwork-block"><span class="teamwork-bloc__icon teamwork-bloc__icon__meidi"></span><p class="teamwork-bloc__content">美的</p></div><div class="teamwork-block"><span class="teamwork-bloc__icon teamwork-bloc__icon__tuya"></span><p class="teamwork-bloc__content">涂鸦智能</p></div><div class="teamwork-block"><span class="teamwork-bloc__icon teamwork-bloc__icon__waming"></span><p class="teamwork-bloc__content">蛙鸣</p></div><div class="teamwork-block"><span class="teamwork-bloc__icon teamwork-bloc__icon__xiaoxun"></span><p class="teamwork-bloc__content">小寻</p></div></div></div><div class="footer">Copyrignt 1998-<span id="currentYear">2021</span> Tencent All Rights Reserved. <a href="/old" class="access" target="_blank">旧版网页</a></div></div></div><div id="app"></div><script type="text/javascript">const maxTimeEle = document.getElementById('currentYear'),
+                year = new Date().getFullYear()
+
+            maxTimeEle.innerHTML = year
+
+            function onBridgeReady() {
+                WeixinJSBridge.call("hideToolbar");
+                WeixinJSBridge.invoke("showOptionMenu");
+                WeixinJSBridge.on('menu:share:appmessage', function (argv) {
+                    WeixinJSBridge.invoke('sendAppMessage', {
+                        "img_url": "https://res.wx.qq.com/t/fed_upload/04e3c0bb-a99b-4f6d-9ad4-df2f1759166d/share-icon.svg",
+                        "img_width": "108",
+                        "img_height": "108",
+                        "link": location.href,
+                        "desc": "",
+                        "title": "微信硬件开放平台"
+                    }, function (res) {
+                    })
+                });
+                WeixinJSBridge.on('menu:share:timeline', function (argv) {
+                    WeixinJSBridge.invoke('shareTimeline', {
+                        "img_url": "https://res.wx.qq.com/t/fed_upload/04e3c0bb-a99b-4f6d-9ad4-df2f1759166d/share-icon.svg",
+                        "img_width": "108",
+                        "img_height": "108",
+                        "link": location.href,
+                        "desc": "",
+                        "title": "微信硬件开放平台"
+                    }, function (res) {
+                    });
+                });
+                WeixinJSBridge.on('menu:share:weibo', function (argv) {
+                    WeixinJSBridge.invoke('shareWeibo', {
+                        "img_url": "https://res.wx.qq.com/t/fed_upload/04e3c0bb-a99b-4f6d-9ad4-df2f1759166d/share-icon.svg",
+                        "img_width": "108",
+                        "img_height": "108",
+                        "link": location.href,
+                        "desc": "",
+                        "title": "微信硬件开放平台"
+                    }, function (res) {
+                    });
+                });
+            }
+            if (document.addEventListener) {
+                document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+            } else if (document.attachEvent) {
+                document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+            }
+
+            function TCaptchaLoadError(){
+                var appid=''
+                document.getElementById('TencentCaptcha').addEventListener('click', function () {
+                    var appid = ''
+                    // 生成票据或自行做其它处理
+                    var ticket = 'terror_1001_' + appid + '_' + Math.floor(new Date().getTime()/1000)
+                    window.callback({
+                    ret: 0,
+                    randstr: '@'+Math.random().toString(36).substr(2),
+                    ticket: ticket,
+                    errorCode: 1001,
+                    errorMessage: 'jsload_error'
+                    })
+                }, false)
+            }</script><script src="static/js/index1.js"></script></body></html>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="24px" viewBox="0 0 10 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Editor_Icon_Bode</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Editor_Icon_Bode" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="CommunityIcons/Outlined/bold" transform="translate(1.000000, 7.000000)" fill="#07C160" fill-rule="nonzero">
+            <path d="M0.08,0.29 L4.865,0.29 C5.855,0.29 6.65,0.53 7.235,1.01 C7.805,1.49 8.09,2.15 8.09,2.99 C8.09,3.59 7.925,4.115 7.61,4.55 C7.28,4.94 6.845,5.225 6.305,5.405 C7.01,5.525 7.55,5.825 7.94,6.275 C8.33,6.725 8.54,7.295 8.54,8.015 C8.54,9.065 8.165,9.845 7.43,10.355 C6.8,10.775 5.93,11 4.835,11 L0.08,11 L0.08,0.29 Z M1.31,1.325 L1.31,4.97 L4.565,4.97 C5.315,4.97 5.885,4.805 6.275,4.505 C6.665,4.19 6.875,3.725 6.875,3.11 C6.875,2.51 6.68,2.06 6.29,1.76 C5.9,1.46 5.33,1.325 4.58,1.325 L1.31,1.325 Z M1.31,5.99 L1.31,9.965 L4.73,9.965 C5.48,9.965 6.065,9.815 6.515,9.545 C7.04,9.215 7.31,8.69 7.31,8 C7.31,7.31 7.07,6.8 6.62,6.47 C6.185,6.14 5.555,5.99 4.73,5.99 L1.31,5.99 Z" id="B"></path>
+        </g>
+    </g>
+</svg>

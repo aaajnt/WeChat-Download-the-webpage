@@ -1,0 +1,22 @@
+{
+    "name":"微信文件传输助手网页版",
+    "short_name":"微信文件传输助手网页版",
+    "icons": [
+      {
+        "src":"/public/favicon/app-icon5-192x192.png",
+        "type":"image/png",
+        "sizes":"192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src":"/public/favicon/app-icon5-512x512.png",
+        "type":"image/png",
+        "sizes":"512x512"
+      }
+    ],
+    "start_url": "/?from=webapp",
+    "prefer_related_applications": false,
+    "display":"standalone",
+    "background_color":"#2c2c2c",
+    "theme_color":"#2c2c2c"
+  }

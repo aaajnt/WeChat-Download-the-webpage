@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>接口和插件</title>
+    <g id="定稿" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="画板" transform="translate(-125.000000, -26.000000)" stroke-width="1.5">
+            <g id="编组-3" transform="translate(125.000000, 26.000000)">
+                <g id="数据接口_usb" transform="translate(6.000000, 5.000000)">
+                    <polyline id="路径" stroke-opacity="0.9" stroke="#000000" stroke-linecap="round" points="5.5 2.5 8 0 10.5 2.5"></polyline>
+                    <polyline id="路径" stroke-opacity="0.9" stroke="#000000" stroke-linecap="round" points="8 12 2 12 2 9"></polyline>
+                    <polyline id="路径" stroke-opacity="0.9" stroke="#000000" stroke-linecap="round" points="14 11 14 15 8 15"></polyline>
+                    <line x1="8" y1="0" x2="8" y2="18" id="路径" stroke-opacity="0.9" stroke="#000000" stroke-linecap="round"></line>
+                    <path d="M2,9 C3.10455,9 4,8.10455 4,7 C4,5.89545 3.10455,5 2,5 C0.89543,5 0,5.89545 0,7 C0,8.10455 0.89543,9 2,9 Z" id="路径" stroke="#07C160"></path>
+                    <path d="M14,11 C15.10455,11 16,10.10455 16,9 C16,7.89545 15.10455,7 14,7 C12.89545,7 12,7.89545 12,9 C12,10.10455 12.89545,11 14,11 Z" id="路径" stroke="#07C160"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

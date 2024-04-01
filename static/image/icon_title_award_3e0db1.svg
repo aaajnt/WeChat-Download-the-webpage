@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>title_icon_award</title>
+    <desc>Created with Sketch.</desc>
+    <g id="title_icon_award" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle" stroke="#979797" fill="#D8D8D8" fill-rule="nonzero" opacity="0" x="0.5" y="0.5" width="23" height="23"></rect>
+        <g id="Group-35-Copy" fill-rule="nonzero">
+            <rect id="Rectangle" stroke="#979797" stroke-width="1.33333333" fill="#D8D8D8" opacity="0" x="0.666666667" y="0.666666667" width="22.6666667" height="22.6666667"></rect>
+            <path d="M12,22.6666667 C6.84534234,22.6666667 2.66666667,18.487991 2.66666667,13.3333333 C2.66666667,8.17867567 6.84534234,4 12,4 C17.1546577,4 21.3333333,8.17867567 21.3333333,13.3333333 C21.3333333,18.487991 17.1546577,22.6666667 12,22.6666667 Z M12,15.6666667 L14.7429978,17.108746 L14.2191319,14.054373 L16.4382637,11.891254 L13.3714989,11.445627 L12,8.66666667 L10.6285011,11.445627 L7.56173626,11.891254 L9.78086813,14.054373 L9.25700216,17.108746 L12,15.6666667 Z M12,4 L13.3333333,1.33333333 L18.6666667,1.33333333 L16,6.66666667 L13.3333333,6.66666667 L8,6.66666667 L5.33333333,1.33333333 L10.6666667,1.33333333 L12,4 Z" id="Combined-Shape" fill="#FA9D3B"></path>
+        </g>
+    </g>
+</svg>

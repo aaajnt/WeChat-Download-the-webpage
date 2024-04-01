@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 3</title>
+    <defs>
+        <circle id="path-1" cx="25" cy="25" r="25"></circle>
+    </defs>
+    <g id="0929-图片浏览" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="文件传输助手网页版登录窗口备份-16" transform="translate(-470.000000, -483.000000)">
+            <g id="编组-3" transform="translate(470.000000, 483.000000)">
+                <g id="椭圆形备份-3">
+                    <use fill-opacity="0.38" fill="#F0F0F0" xlink:href="#path-1"></use>
+                    <use fill-opacity="0.4" fill="#000000" xlink:href="#path-1"></use>
+                </g>
+                <g id="编组" transform="translate(18.000000, 10.000000)" fill="#FFFFFF">
+                    <g id="0.图标/面型/icons_filled_download备份-3" transform="translate(7.500000, 15.000000) scale(-1, 1) translate(-7.500000, -15.000000) ">
+                        <path d="M1.25,9.37995112 L11.25,9.37995112 L11.25,9.37995112 L11.25,11.8799511 L2.5,11.8799511 L2.5,20.6299511 L0,20.6299511 L0,10.6299511 C-8.45442189e-17,9.93959518 0.559644063,9.37995112 1.25,9.37995112 Z" id="Combined-Shape" transform="translate(5.625000, 15.004951) rotate(135.000000) translate(-5.625000, -15.004951) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>login_enterprise</title>
+    <desc>Created with Sketch.</desc>
+    <g id="login_enterprise" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-12" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval" fill="#10AEFF" cx="32" cy="32" r="32"></circle>
+            <g id="Group-56" transform="translate(20.000000, 22.000000)">
+                <path d="M1.71428571,0 L13.7142857,-2.22044605e-16 C14.6610596,4.44939967e-16 15.4285714,0.767511857 15.4285714,1.71428571 L15.4285714,20 L0,20 L0,1.71428571 C-1.15946357e-16,0.767511857 0.767511857,1.28414256e-15 1.71428571,1.11022302e-15 Z" id="Rectangle" fill="#FFFFFF"></path>
+                <rect id="Rectangle" fill="#10AEFF" x="3.42857143" y="6.66666667" width="8.57142857" height="1.66666667"></rect>
+                <rect id="Rectangle-Copy-9" fill="#10AEFF" x="3.42857143" y="11.6666667" width="8.57142857" height="1.66666667"></rect>
+                <path d="M16.2857143,6.66666667 L22.2857143,6.66666667 C23.2324881,6.66666667 24,7.43417852 24,8.38095238 L24,20 L16.2857143,20 L16.2857143,6.66666667 Z" id="Rectangle-Copy-8" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

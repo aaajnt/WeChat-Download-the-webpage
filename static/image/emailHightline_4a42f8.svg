@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="16px" viewBox="0 0 20 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>3.Icons/Outlined/email</title>
+    <desc>Created with Sketch.</desc>
+    <g id="交互" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="新的系统消息" transform="translate(-1297.000000, -86.000000)" fill="#07C160">
+            <g id="Rectangle-+-3.Icons/Outlined/email-+-3.Icons/Outlined/like-Mask" transform="translate(1215.000000, 54.000000)">
+                <g id="3.Icons/Outlined/email" transform="translate(80.000000, 28.000000)">
+                    <g id="common_icons_email" transform="translate(2.000000, 4.000000)">
+                        <path d="M19,0 C19.5522847,0 20,0.44771525 20,1 L20,15 C20,15.5522847 19.5522847,16 19,16 L1,16 C0.44771525,16 0,15.5522847 0,15 L0,1 C0,0.44771525 0.44771525,0 1,0 L19,0 Z M1.199,1.948 L1.2,14.8 L18.8,14.8 L18.8,1.949 L10.96,7.83 C10.3911111,8.25666667 9.60888889,8.25666667 9.04,7.83 L1.199,1.948 Z M17.8,1.199 L2.2,1.199 L9.76,6.87 C9.90222222,6.97666667 10.0977778,6.97666667 10.24,6.87 L17.8,1.199 Z M1.2,1.199 L1.2,1.2 L1.199,1.2 L1.2,1.199 Z" id="图标颜色"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

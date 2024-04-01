@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>社区突出贡献者</title>
+    <defs>
+        <linearGradient x1="50%" y1="0.814371176%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFDB77" offset="0%"></stop>
+            <stop stop-color="#FF9D18" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.7" offset="100%"></stop>
+        </linearGradient>
+        <path d="M127.5,154.87411 L103.05735,167.626066 C101.294598,168.54571 99.1200863,167.862236 98.2004424,166.099484 C97.8378335,165.404444 97.7120116,164.610036 97.842094,163.836961 L102.416731,136.650048 L102.416731,136.650048 L82.7357053,117.344278 C81.3163516,115.951986 81.294413,113.672698 82.6867041,112.253345 C83.2356743,111.693704 83.9523201,111.328554 84.7277557,111.213377 L111.997687,107.162897 L111.997687,107.162897 L124.276795,82.479318 C125.162338,80.6991908 127.32329,79.9739872 129.103418,80.8595302 C129.805309,81.2086935 130.374042,81.7774267 130.723205,82.479318 L143.002313,107.162897 L143.002313,107.162897 L170.272244,111.213377 C172.238894,111.505489 173.596374,113.336577 173.304262,115.303226 C173.189085,116.078662 172.823936,116.795307 172.264295,117.344278 L152.583269,136.650048 L152.583269,136.650048 L157.157906,163.836961 C157.487819,165.797624 156.165836,167.654502 154.205173,167.984415 C153.432099,168.114497 152.637691,167.988675 151.94265,167.626066 L127.5,154.87411 L127.5,154.87411 Z" id="path-3"></path>
+        <filter x="-19.4%" y="-10.0%" width="138.7%" height="134.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="1.55818025%" x2="50%" y2="97.1638713%" id="linearGradient-5">
+            <stop stop-color="#FFFFFF" stop-opacity="0.7" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.8" offset="100%"></stop>
+        </linearGradient>
+        <path d="M128,30 C182.123905,30 226,73.8760945 226,128 C226,182.123905 182.123905,226 128,226 C73.8760945,226 30,182.123905 30,128 C30,73.8760945 73.8760945,30 128,30 Z M128,42 C80.5035115,42 42,80.5035115 42,128 C42,175.496488 80.5035115,214 128,214 C175.496488,214 214,175.496488 214,128 C214,80.5035115 175.496488,42 128,42 Z" id="path-6"></path>
+        <filter x="-1.0%" y="-1.0%" width="102.0%" height="102.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.6 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="社区突出贡献者" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="椭圆形" fill="url(#linearGradient-1)" cx="128" cy="128" r="104"></circle>
+        <g id="星形">
+            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+            <use fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+        </g>
+        <g id="椭圆形" fill-rule="nonzero">
+            <use fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+        </g>
+    </g>
+</svg>

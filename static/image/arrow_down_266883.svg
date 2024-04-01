@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="6px" height="4px" viewBox="0 0 6 4" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Nav_collapse" transform="translate(-302.000000, -117.000000)" fill="#000000">
+            <g id="Nav" transform="translate(0.000000, 88.000000)">
+                <g id="allow" transform="translate(301.000000, 29.000000)">
+                    <path d="M6.83204355,0.833311859 L4.37299512,3.58293042 C4.18891206,3.7887654 3.87282104,3.80639882 3.66698606,3.62231576 C3.65303727,3.60984103 3.63979982,3.59659306 3.62733617,3.58263438 L1.1722145,0.833015817 C0.988294944,0.627034731 1.00617935,0.310957808 1.21216043,0.127038251 C1.30379113,0.0452216225 1.42233429,2.25657013e-17 1.54517625,0 L6.45934635,2.22044605e-16 C6.73548872,-3.19209323e-16 6.95934635,0.223857625 6.95934635,0.5 C6.95934635,0.622978795 6.91402413,0.741644153 6.83204355,0.833311859 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

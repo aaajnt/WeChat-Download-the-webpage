@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="24px" viewBox="0 0 16 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Editor_Icon_Photo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.04,14.3270773 L15.04,6.96 L0.96,6.96 L0.96,14.0737759 L4.95939642,10.8394069 C5.32943924,10.540148 5.92370049,10.5546617 6.28039634,10.8680669 L9.86153831,14.0145811 L11.687282,12.4619981 C12.057054,12.14755 12.6453783,12.1539381 13.0043451,12.476067 L15.04,14.3270773 Z M15.0399997,15.5948875 L12.340947,13.1663135 L10.5903806,14.6549669 L11.6659511,15.6 L10.2489338,15.6 L5.604845,11.5520666 L0.96,15.3084191 L0.96,17.84 L15.04,17.84 L15.04,15.5948873 Z M0.793442488,6 L15.2065575,6 C15.6357555,6 16,6.3849096 16,6.85971966 L16,17.9402803 C16,18.4169214 15.6447637,18.8 15.2065575,18.8 L0.793442488,18.8 C0.364244461,18.8 0,18.4150904 0,17.9402803 L0,6.85971966 C0,6.38307858 0.355236302,6 0.793442488,6 Z" id="path-1"></path>
+    </defs>
+    <g id="Editor_Icon_Photo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="photo" fill="#07C160" fill-rule="nonzero" xlink:href="#path-1"></use>
+    </g>
+</svg>

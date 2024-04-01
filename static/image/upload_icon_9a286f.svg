@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="22px" viewBox="0 0 28 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>@3x认证icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="4" y="4" width="1366" height="1967"></rect>
+        <filter x="-0.4%" y="-0.3%" width="100.9%" height="100.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.110762002 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="207" y="160" width="960" height="725" rx="4"></rect>
+        <filter x="-0.4%" y="-0.3%" width="100.7%" height="101.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.478431373   0 0 0 0 0.57254902   0 0 0 0 0.623529412  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="120" height="120"></rect>
+    </defs>
+    <g id="个人与企业主页180620" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-16" stroke="#979797" fill="#D8D8D8" fill-rule="nonzero" x="-5814.5" y="-1785.5" width="10462" height="4808"></rect>
+        <rect id="Rectangle-17" stroke="#FF0000" stroke-width="3" fill-rule="nonzero" x="-342.5" y="-329.5" width="1474" height="3211" rx="55"></rect>
+        <g id="企业资料-copy" transform="translate(-288.000000, -249.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1374" height="1036"></rect>
+            <g id="Frame-Background">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#F8F9FB" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <g id="Content-Background">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <g id="认证icon" transform="translate(242.000000, 200.000000)">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <rect stroke-opacity="0.3" stroke="#979797" x="0.5" y="0.5" width="119" height="119"></rect>
+                <g mask="url(#mask-6)" fill="#8E8E93" id="Path-4">
+                    <g transform="translate(46.000000, 49.000000)">
+                        <path d="M18.7372454,0.774497916 L20.7921664,3.34314914 C21.1309101,3.76657879 21.8597536,4.11764706 22.4123758,4.11764706 L26.0054333,4.11764706 C27.1114813,4.11764706 28,5.01341329 28,6.11839693 L28,19.4110148 C28,20.518375 27.1084896,21.4117647 26.0087557,21.4117647 L1.99124431,21.4117647 C0.899897516,21.4117647 0,20.5159985 0,19.4110148 L0,6.11839693 C0,5.01103681 0.89299792,4.11764706 1.99456668,4.11764706 L5.58762416,4.11764706 C6.1353992,4.11764706 6.86563892,3.77089253 7.20783363,3.34314914 L9.26275461,0.774497916 C9.60149832,0.351068272 10.3344597,0 10.8921616,0 L17.1078384,0 C17.6748819,0 18.3950507,0.346754528 18.7372454,0.774497916 Z M14,18.9411765 C18.0934046,18.9411765 21.4117647,15.8071697 21.4117647,12.3529412 C21.4117647,8.07518322 18.0934046,4.94117647 14,4.94117647 C9.90659538,4.94117647 6.58823529,8.07518322 6.58823529,12.3529412 C6.58823529,15.8071697 9.90659538,18.9411765 14,18.9411765 Z M14,17.2941176 C10.8162409,17.2941176 8.23529412,14.8975242 8.23529412,12.3529412 C8.23529412,8.98482869 10.8162409,6.58823529 14,6.58823529 C17.1837591,6.58823529 19.7647059,8.98482869 19.7647059,12.3529412 C19.7647059,14.8975242 17.1837591,17.2941176 14,17.2941176 Z M2.47058824,1.64705882 L5.76470588,1.64705882 L5.76470588,3.29411765 L2.47058824,3.29411765 L2.47058824,1.64705882 Z"></path>
+                    </g>
+                </g>
+            </g>
+            <rect id="Rectangle-17" stroke="#FF0000" stroke-width="3" fill-rule="nonzero" x="-27.5" y="-109.5" width="1459" height="1631" rx="55"></rect>
+        </g>
+        <g id="Connections" transform="translate(-4610.000000, -7789.000000)"></g>
+    </g>
+</svg>

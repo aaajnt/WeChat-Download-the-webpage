@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>c_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="c_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-13-Copy">
+            <rect id="Rectangle-2" fill="#D8D8D8" opacity="0" x="0" y="0" width="24" height="24"></rect>
+            <path d="M3.75,5 L22.05,5 C22.4642136,5 22.8,5.33578644 22.8,5.75 L22.8,22.4386114 L18.3488186,20.6 L3.75,20.6 C3.33578644,20.6 3,20.2642136 3,19.85 L3,5.75 C3,5.33578644 3.33578644,5 3.75,5 Z" id="Rectangle-20" fill="#CFCFCF"></path>
+            <path d="M1.75,3 L20.05,3 C20.4642136,3 20.8,3.33578644 20.8,3.75 L20.8,17.85 C20.8,18.2642136 20.4642136,18.6 20.05,18.6 L4.85491988,18.6 L1,21.4555908 L1,3.75 C1,3.33578644 1.33578644,3 1.75,3 Z" id="Rectangle-20-Copy" fill="#1AAD19"></path>
+            <path d="M10.75,12 C9.92157288,12 9.25,11.3284271 9.25,10.5 C9.25,9.67157288 9.92157288,9 10.75,9 C11.5784271,9 12.25,9.67157288 12.25,10.5 C12.25,11.3284271 11.5784271,12 10.75,12 Z M5.5,12 C4.67157288,12 4,11.3284271 4,10.5 C4,9.67157288 4.67157288,9 5.5,9 C6.32842712,9 7,9.67157288 7,10.5 C7,11.3284271 6.32842712,12 5.5,12 Z M16,12 C15.1715729,12 14.5,11.3284271 14.5,10.5 C14.5,9.67157288 15.1715729,9 16,9 C16.8284271,9 17.5,9.67157288 17.5,10.5 C17.5,11.3284271 16.8284271,12 16,12 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

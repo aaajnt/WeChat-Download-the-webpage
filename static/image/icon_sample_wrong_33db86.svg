@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>3.Icons/Outlined/done Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="5.33333333 4.62878788 1.20454545 0.5 0.5 1.20454545 4.62878788 5.33333333 0.5 9.46212121 1.20454545 10.1666667 5.33333333 6.03787879 9.46212121 10.1666667 10.1666667 9.46212121 6.03787879 5.33333333 10.1666667 1.20454545 9.46212121 0.5"></polygon>
+    </defs>
+    <g id="marcusfei-视觉" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="默认Tips弹起（当用户进入本页面时默认弹起）" transform="translate(-453.000000, -366.000000)">
+            <g id="3.Icons/Outlined/close" transform="translate(450.000000, 363.000000)">
+                <g id="Icons/Tint-Color/Black" transform="translate(2.666667, 2.666667)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="图标颜色" fill="#FA5151" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>read_icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="read_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0">
+        <g id="icon21" transform="translate(0.000000, 3.000000)" fill="#000000" stroke="#000000">
+            <path d="M0.551532231,5.5 C2.01634001,8.55427661 4.85821258,10.5 8,10.5 C11.1417874,10.5 13.98366,8.55427661 15.4484678,5.5 C13.98366,2.44572339 11.1417874,0.5 8,0.5 C4.85821258,0.5 2.01634001,2.44572339 0.551532231,5.5 Z" id="Path"></path>
+            <path d="M8,8.14285714 C9.32150195,8.14285714 10.4090909,6.96787265 10.4090909,5.5 C10.4090909,4.03212735 9.32150195,2.85714286 8,2.85714286 C6.67849805,2.85714286 5.59090909,4.03212735 5.59090909,5.5 C5.59090909,6.96787265 6.67849805,8.14285714 8,8.14285714 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

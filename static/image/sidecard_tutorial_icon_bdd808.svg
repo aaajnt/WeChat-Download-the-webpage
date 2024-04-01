@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>sidecard_tutorial_icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="sidecard_tutorial_icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0">
+        <g id="Group-28" transform="translate(5.000000, 4.000000)" fill="#FA9D3B" stroke="#07C160">
+            <rect id="Combined-Shape" stroke-width="1.2" x="0.6" y="0.6" width="12.8" height="15.8" rx="0.875"></rect>
+            <rect id="Rectangle" stroke-width="0.875" x="3.0625" y="4.91118421" width="3.5" height="1"></rect>
+            <path d="M3.0625,7.96998018 L3.0625,8.29498018 L10.9375,8.29498018 L10.9375,7.96998018 L3.0625,7.96998018 Z" id="Rectangle-Copy-4" stroke-width="0.875"></path>
+            <rect id="Rectangle-Copy-5" stroke-width="0.875" x="3.0625" y="10.9068231" width="7.875" height="1"></rect>
+        </g>
+    </g>
+</svg>

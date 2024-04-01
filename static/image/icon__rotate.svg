@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>0.图标/icons_outlined_pic_translation_hover</title>
+    <defs>
+        <circle id="path-1" cx="25" cy="25" r="25"></circle>
+    </defs>
+    <g id="0.图标/icons_outlined_pic_translation_hover" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="编组-8备份">
+            <g id="椭圆形备份">
+                <use fill-opacity="0.38" fill="#F0F0F0" xlink:href="#path-1"></use>
+                <use fill-opacity="0.4" fill="#000000" xlink:href="#path-1"></use>
+            </g>
+            <circle id="椭圆形备份" fill-opacity="0.1" fill="#000000" cx="25" cy="25" r="25"></circle>
+        </g>
+        <g id="0.图标/09.图片/icons_outlined_pic_rotate备份" transform="translate(14.000000, 13.000000)" fill="#FFFFFF">
+            <path d="M16.7798853,7.97487342 C17.4927526,7.97487342 18.0706457,8.54897162 18.0706457,9.25715765 L18.0706457,20.7977158 C18.0706457,21.5059018 17.4927526,22.08 16.7798853,22.08 L1.29076041,22.08 C0.577893118,22.08 0,21.5059018 0,20.7977158 L0,9.25715765 C0,8.54897162 0.577893118,7.97487342 1.29076041,7.97487342 L16.7798853,7.97487342 Z" id="形状结合"></path>
+            <path d="M15.1589555,5.123 L15.1525586,5.12913694 L12.7706099,2.96588742 C12.5489675,2.76459523 12.5324705,2.42173905 12.7337627,2.20009672 C12.7454473,2.18723077 12.7577439,2.17493417 12.7706099,2.16324952 L15.1525586,-4.5708437e-12 L15.1589555,0.006 L15.1579555,1.906 L15.4431763,1.92955958 C19.7061235,2.33329638 23.1627545,5.483434 23.9998856,9.57869529 L22.6783026,9.57893738 C21.8519019,6.10440546 18.8365131,3.4701902 15.158164,3.1922982 L15.1589555,5.123 Z" id="形状结合" stroke="#FFFFFF" stroke-width="0.5" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

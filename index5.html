@@ -1,0 +1,46 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="content-type" content="text/html;charset=utf-8"><meta name="baidu-site-verification" content="XwkzGvlFI9"><meta id="viewport" name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="renderer" content="webkit"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><link rel="shortcut icon" type="image/x-icon" href="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico"><link rel="mask-icon" href="https://res.wx.qq.com/a/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C"><link rel="apple-touch-icon-precomposed" href="https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png"><title>微信儿童手表版</title><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link href="static/css/index.css" rel="stylesheet"></head><body><div class="page page__index"><div class="header" aegis-first-screen-timing=""><div class="header__bg"></div><div class="header-dec1"></div><div class="header-dec2"></div><div class="header-dec3"></div><div class="nav"><h1 class="logo" title="微信儿童手表版"></h1><div class="nav__extend"><a href="index17.html#/protocol/doc_1" target="_blank" class="button__nav">产品指引及合作</a></div></div><div class="banner"><div class="banner__main"><div class="banner__info"><h2 class="slogan" title="微信儿童手表版">微信儿童手表版</h2><p class="desc">帮助孩子轻松连接家人和朋友的手表通讯应用</p></div><div class="banner__dec"><div class="banner__img1"></div><div class="banner__img2"></div></div></div></div></div><div class="intro"><div class="card"><div class="card__info"><h3 class="card__title">登录微信帐号</h3><p class="card__desc">使用已有微信帐号登录手表，可选择独立使用手表。</p></div><div class="img"></div></div><div class="card"><div class="card__info"><h3 class="card__title">聊天</h3><p class="card__desc">在单聊和群聊收发语音、文字、表情、图片消息，单聊能与朋友进行音/视频通话。</p></div><div class="img"></div></div><div class="card"><div class="card__info"><h3 class="card__title">加微信朋友</h3><p class="card__desc">通过摇一摇，搜索，二维码，名片方式加朋友，可以在手表上直接处理朋友请求。</p></div><div class="img"></div></div><div class="card"><div class="card__info"><h3 class="card__title">付款码支付</h3><p class="card__desc">使用付款码进行线下支付，家长可以为孩子扫码开通付款码能力。</p></div><div class="img"></div></div></div><div class="join"><h2 class="join__title">下载与使用</h2><p class="join__desc">当前可在华为、米兔、读书郎、OPPO等儿童手表应用商城下载安装，更多儿童手表开放接入中。</p><div class="join__main"><div class="join-item"><h3 class="join-item__title huawei" title="HUAWEI"></h3><ul class="join-item__list"><li class="join-item__list__item">华为儿童手表 4 Pro</li><li class="join-item__list__item">华为儿童手表 4X 新耀款</li><li class="join-item__list__item">华为儿童手表 4X</li><li class="join-item__list__item">华为儿童手表 3 Pro 超能版</li><li class="join-item__list__item">华为儿童手表 3S</li></ul></div><div class="join-item"><h3 class="join-item__title xiaomi" title="XIAOMI"></h3><ul class="join-item__list"><li class="join-item__list__item">米兔 5X</li><li class="join-item__list__item">米兔 4Pro</li></ul></div><div class="join-item"><h3 class="join-item__title xiaoxun" title="XIAOXUN"></h3><ul class="join-item__list"><li class="join-item__list__item">小寻 MAX Pro</li><li class="join-item__list__item">小寻 Y2</li></ul></div><div class="join-item"><h3 class="join-item__title dushulang" title="读书郎"></h3><ul class="join-item__list"><li class="join-item__list__item">读书郎 A8</li><li class="join-item__list__item">读书郎 A9</li></ul></div><div class="join-item"><h3 class="join-item__title oppo" title="OPPO"></h3><ul class="join-item__list"><li class="join-item__list__item">OPPO Watch2</li></ul></div></div></div><div class="copyright">Copyright &copy; 1998-<span id="maxTime"></span> Tencent All Rights Reserved.</div></div><script type="text/javascript">const maxTimeEle = document.getElementById('maxTime'),
+                year = new Date().getFullYear()
+
+            maxTimeEle.innerHTML = year
+            function onBridgeReady() {
+                WeixinJSBridge.call("hideToolbar");
+                WeixinJSBridge.invoke("showOptionMenu");
+                WeixinJSBridge.on('menu:share:appmessage', function (argv) {
+                    WeixinJSBridge.invoke('sendAppMessage', {
+                        "img_url": "https://res.wx.qq.com/t/fed_upload/30983235-9678-4d65-a1d1-777f8b7a2c43/kidsShareIcon.png",
+                        "img_width": "108",
+                        "img_height": "108",
+                        "link": location.href,
+                        "desc": "",
+                        "title": "微信儿童手表版"
+                    }, function (res) {
+                    })
+                });
+                WeixinJSBridge.on('menu:share:timeline', function (argv) {
+                    WeixinJSBridge.invoke('shareTimeline', {
+                        "img_url": "https://res.wx.qq.com/t/fed_upload/30983235-9678-4d65-a1d1-777f8b7a2c43/kidsShareIcon.png",
+                        "img_width": "108",
+                        "img_height": "108",
+                        "link": location.href,
+                        "desc": "",
+                        "title": "微信儿童手表版"
+                    }, function (res) {
+                    });
+                });
+                WeixinJSBridge.on('menu:share:weibo', function (argv) {
+                    WeixinJSBridge.invoke('shareWeibo', {
+                        "img_url": "https://res.wx.qq.com/t/fed_upload/30983235-9678-4d65-a1d1-777f8b7a2c43/kidsShareIcon.png",
+                        "img_width": "108",
+                        "img_height": "108",
+                        "link": location.href,
+                        "desc": "",
+                        "title": "微信儿童手表版"
+                    }, function (res) {
+                    });
+                });
+            }
+            if (document.addEventListener) {
+                document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+            } else if (document.attachEvent) {
+                document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+            }</script><script src="static/js/index.js"></script></body></html>

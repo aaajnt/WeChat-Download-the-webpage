@@ -1,0 +1,287 @@
+         <!doctype html>
+<html>
+    
+    <head>  <title>微信安全中心 - 安全连接一切</title>
+<meta name="keywords" content="微信安全中心,安全中心,微信110,微信账号安全问题,找回账号密码,关闭账号保护,账号自助解封,冻结账号,解冻账号,投诉维权,微信安全学堂">
+<meta name="description" content="微信安全中心(weixin110.qq.com)，安全连接一切。你可以通过微信安全中心提供的各种安全工具管理微信账号安全，并获取最新的安全资讯。">
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>微信安全中心</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://res.wx.qq.com/t/wx_fed/assets/res/NTI4MWU5.ico">
+        <link rel="mask-icon" href="https://res.wx.qq.com/t/wx_fed/assets/res/MjliNWVm.svg" color="#4C4C4C">
+        <link rel="apple-touch-icon-precomposed" href="https://res.wx.qq.com/t/wx_fed/assets/res/OTE0YTAw.png">
+        <!--style-->
+        <script>
+            var _speedMark=+new Date
+        </script>
+        <!--style-->
+        <!--style-->
+<link rel="stylesheet" href="static/css/00e482307a52a8e71d38fb5a767de864.css">
+<style type="text/css">
+    #pointCanvas{position:absolute;top:0;left:0}#slogan{display:none}
+</style>
+        <link rel="stylesheet" href="static/css/66f11aa2241b97674ba754d9bd8d45a3.css">
+    </head>
+    
+    <body class="">
+        <div class="head">
+            <div class="head_bg"></div>
+            <div class="inner">
+                 <h1 class="logo">  <a href=""><img src="static/picture/wxsec_logo.svg" width="116px" alt="微信安全中心"></a>  <b>微信安全中心</b> </h1> 
+        <div class="nav"><a class="on">首页</a> <a href="/security/readtemplate?t=security_center_website/tools">安全工具</a>  <a href="/security/readtemplate?t=security_center_website/report">投诉维权</a> <a href="/security/readtemplate?t=security_center_website/school">安全学堂</a> <a href="/security/readtemplate?t=security_center_website/notices">安全公告</a> </div></div>
+        </div>        <div class="body">
+<div class="banner" id="banner">
+    <canvas id="pointCanvas" keepalive="true" data-paper-resize="true">        <img class="no_canvas" src="static/picture/1ILmpDc.png"></canvas>    <img id="slogan" src="static/picture/1ILmpDc.png">    <div class="notice_box">
+        <div class="bg"></div>
+        <div class="inner">
+            <div class="notice_list"> <span class="notice_text">通知：</span>  <span id="linkList"></span>  <a href="/security/readtemplate?t=security_center_website/school"><i class="iconfont_arrow"></i></a> </div>
+        </div>
+    </div>
+</div>
+<div class="tools_list inner"> <a href="/security/readtemplate?t=find_password/index" target="_blank"><i class="iconfont_wechat icon_default"></i><i class="iconfont_solid_wechat icon_hover"></i><p>找回账号密码</p></a>  <a href="/security/readtemplate?t=account_frozen/frozen_help_intro&type=frozen" target="_blank"><i class="iconfont_snow icon_default"></i><i class="iconfont_snow icon_hover"></i><p>冻结账号</p></a>  <a href="/security/readtemplate?t=self_deblock/index" target="_blank"><i class="iconfont_man icon_default"></i><i class="iconfont_solid_man icon_hover"></i><p>解封账号</p></a>  <a href="/security/readtemplate?t=security_center_website/tools"><i class="iconfont_more icon_default"></i><i class="iconfont_solid_more icon_hover"></i><p>更多功能</p></a>  <a class="extra"></a> 
+</div></div>
+            <div id="foot" class="foot">
+                <ul class="links">
+                    <li class="links_item no_extra"><a href="http://www.tencent.com/" target="_blank">关于腾讯</a>
+                    </li>
+                    <li class="links_item"><a href="http://www.tencent.com/en-us/index.shtml" target="_blank">About Tencent</a>
+                    </li>
+                    <li class="links_item"><a href="readtemplate-zh_CN_weixin_agreement_default.html" target="_blank">服务条款</a>
+                    </li>
+                    <li class="links_item"><a href="http://hr.tencent.com/" target="_blank">腾讯招聘</a>
+                    </li>
+                    <li class="links_item"><a href="http://kf.qq.com/" target="_blank">客服中心</a>
+                    </li>
+                    <li class="links_item"><a href="readtemplate-zh_CN_weixin_agreement_privacy.html" target="_blank">隐私保护指引</a>
+                    </li>
+                </ul>
+                <p class="copyright">Copyright &copy; 2011 - 2024 Tencent All Right Reserved.</p>
+            </div>
+            <!--script-->
+            <script src="static/js/jquery.min1.js"></script>
+            <script>
+                window.URL="/security/getcontent",setTimeout(function(){(new Image).src="https://support.weixin.qq.com/cgi-bin/mmsupport-bin/reportforweb?rid=64693&rkey=34&rvalue=1&_t="+(new Date).getTime()},1e3)
+            </script>
+<script type="text/template" id="linkTmpl">
+    <span class="notice_item"><a class="link" href="/security/readtemplate?t=security_center_website/article&artid=##id##" target="_blank">##title##</a><i class="icon new ##new##"></i></span>
+</script>
+<script src="static/js/paper-full.min.js"></script>
+<script type="text/paperscript" canvas="pointCanvas">
+    var exploded = true,
+        networkCircleZoomOut = true,
+        circleSpace = 4,
+        currentIndex = 0,
+        circleRadius = 40,
+        nodeMoveSpeed = 40,
+    
+        zoomOutNodeSpeed = view.size.width / 1.5,
+        showOnePartLinePercent = 0,
+        showTwoPartLinePercent = 0;
+    
+    var networkCircleOut = new Shape.Circle({
+        center: view.center,
+        radius: circleRadius,
+        strokeColor: 'rgba(255, 255, 255, 1)',
+        strokeWidth: 1
+    });
+    networkCircleOut.strokeColor.alpha = 0;
+    
+    var networkCircleIn = new Shape.Circle({
+        center: view.center,
+        radius: circleRadius - circleSpace,
+        fillColor: 'rgba(0, 0, 0, .1)'
+    });
+    
+    
+    var Line = function () {
+        this.line = new Path({
+            segments: [[0, 0], [0, 0]],
+            strokeColor: 'rgba(255,255,255,.1)',
+            strokeWidth: 1
+        });
+    };
+    Line.prototype.draw = function (startPoint, endPoint, percent) {
+        this.line.segments[0].point = startPoint;
+        if(percent !== undefined){
+            this.line.segments[1].point = (endPoint - startPoint) * percent / 100 + startPoint;
+        }else{
+            this.line.segments[1].point = endPoint;
+        }
+    };
+    
+    var Node = function (point) {
+        var color = "rgba(163, 255, 243, " + Math.random() + ")";
+        var node = new Path.Circle({
+            center: point,
+            radius: 1,
+            fillColor: color
+        });
+    
+        this.point = point; // 起始位置
+        this.color = color;
+        this.dest = getDestinationInCircle(); // 目标位置
+        this.width = node.bounds.width;
+        this.node = node;
+    };
+    Node.prototype.move = function () {
+        var vector = this.dest - this.node.position;
+        if (vector.length < 10) {
+            this.dest = getDestinationInCircle();
+            vector = this.dest - this.node.position;
+        }
+    
+        this.node.position += vector * nodeMoveSpeed / 1000;
+    };
+    
+    var font = new Raster('slogan');
+    font.scale(.5);
+    font.position = view.center;
+    font.opacity = 0;
+    
+    
+    function getDestinationInCircle() {
+        var posX = (Math.random() * 2 - 1) * circleRadius;
+        var ylim = Math.sqrt(circleRadius * circleRadius - posX * posX);
+        var posY = (Math.random() * 2 - 1) * ylim;
+    
+        return new Point(posX + view.center.x, posY + view.center.y);
+    }
+    function onResize(event) {
+        font.position = view.center;
+        networkCircleOut.position = view.center;
+        networkCircleIn.position = view.center;
+    }
+    function onFrame(event) {
+        for (var i = 0; i < nodes.length; i++) {
+            nodes[i].move(i);
+        }
+    
+        switch(currentIndex){
+            case 0: // 出白圈
+                if(circleRadius < 60){
+                    var step = 30 / circleRadius;
+                    networkCircleOut.radius += step;
+                    networkCircleIn.radius += step;
+                    circleRadius += step;
+                }else{
+                    var outR = networkCircleOut.radius;
+                    outR = networkCircleZoomOut ? outR + .2 : outR - .2;
+                    networkCircleZoomOut = outR >= 65 ? false : outR <= 60 ? true : networkCircleZoomOut;
+    
+                    networkCircleOut.radius = outR;
+                    networkCircleIn.radius = outR - circleSpace;
+    
+                    next(900);
+                }
+                if(networkCircleOut.strokeColor.alpha < 0.2)
+                    networkCircleOut.strokeColor.alpha += .03; // 显示白圈
+                break;
+            case 1: // 爆炸
+                var viewW = view.size.width;
+                networkCircleOut.visible = false;
+                if(exploded && networkCircleOut.radius > 40){
+                    networkCircleOut.radius -= 4;
+                    networkCircleIn.radius = networkCircleOut.radius - circleSpace;
+                }else{
+                    exploded = false;
+                    if (networkCircleOut.radius < viewW / 2 + 100) { // 半径比屏宽/2再大100
+                        networkCircleOut.radius += viewW / 30;
+                    }
+                    networkCircleIn.radius = networkCircleOut.radius - circleSpace;
+    
+                    if (circleRadius < viewW / 1.5) {
+                        circleRadius += 35;
+                    }
+    
+                    if(zoomOutNodeSpeed > 10){ // 爆炸后速度减少
+                        zoomOutNodeSpeed -= zoomOutNodeSpeed * .08;
+                        nodeMoveSpeed = zoomOutNodeSpeed;
+                    }else{
+                        zoomOutNodeSpeed = nodeMoveSpeed = 10;
+                        next(800);
+                    }
+                }
+                break;
+            case 2: // 连线
+                showOnePartLinePercent = showOnePartLinePercent < 100 ? showOnePartLinePercent + 3 : 100;
+                for (var i = 0, len = nodes.length; i < len; ++i) {
+                    if (i < lineCount - 1 && i % 5 == 0) {
+                        lines[i].draw(nodes[i].node.position, nodes[i + 1].node.position, showOnePartLinePercent);
+                    }
+                }
+    
+                if(showOnePartLinePercent >= 100){
+                    if(showTwoPartLinePercent < 100){
+                        showTwoPartLinePercent += 2;
+                    }else{
+                        showTwoPartLinePercent = 100;
+                        next(300);
+                    }
+                    for (var i = 0, len = nodes.length; i < len; ++i) {
+                        if (i < lineCount - 1 && i % 5 != 0) {
+                            lines[i].draw(nodes[i].node.position, nodes[i + 1].node.position, showTwoPartLinePercent);
+                        }
+                    }
+                }
+                break;
+            case 3: // 文字出现
+                if (font.opacity < 1) {
+                    font.opacity += .03;
+                }
+    
+                for (var i = 0, len = nodes.length; i < len; ++i) {
+                    if (i < lineCount - 1) {
+                        lines[i].draw(nodes[i].node.position, nodes[i + 1].node.position);
+                    }
+                }
+                break;
+        }
+    }
+    
+    
+    var nodes = [],
+        lines = [],
+        size = view.size,
+        nodeCount = lineCount = Math.round(size.width / 60);
+    for (var i = 0; i < nodeCount; i++) {
+        var node = new Node(getDestinationInCircle());
+        nodes.push(node);
+    }
+    for (i = 0; i < lineCount; i++) {
+        var line = new Line();
+        lines.push(line);
+    }
+    
+    var animationStartTime;
+    function next(waitTime){
+        if(animationStartTime){
+            if (+new Date() - animationStartTime > (waitTime || 0)) {
+                animationStartTime = null;
+                currentIndex++;
+            }
+        }else{
+            animationStartTime = +new Date();
+        }
+    }
+    
+    var tool = new Tool();
+    tool.onMouseDown = function(e){
+        if(currentIndex != 3) return;
+    
+        var i = Math.round(Math.random() * nodes.length - 1);
+        nodes[i].node.remove();
+        nodes[i] = new Node(e.point);
+    };
+</script>
+<script>
+    !function(n){var a,t,i=n("#banner");function e(){a=i.width(),t=i.height();var e={width:a+"px",height:t+"px"};n("#pointCanvas").css(e)}(window.onresize=e)();var o=n("#linkList"),r=document.getElementById("linkTmpl").innerHTML;n.ajax({url:URL,type:"GET",dataType:"json",data:{callname:"getKnowledgeByMenuId",callcontent:encodeURIComponent("menuid=5905&page=1&perpage=3")},success:function(e){for(var n=e.knowledges,a=0,t=n.length;a<t;++a){var i=n[a];2<=a&&(i.new="dn"),o.append(r.replace(/##(.*?)##/g,function(e,n){return(i[n]||"").replace(/帐号/g,"账号")}))}}})}(jQuery),TA_STATS_ARGS={sk:"wx_110_index",sv:1}
+</script>
+<script>
+    -1!==location.host.indexOf("wechat.com")?(new Image).src="https://support.wechat.com/cgi-bin/mmsupportmeshnodelogicsvr-bin/cube?biz=3512&label=wx110.support.portal&action=desktop":(new Image).src="https://support.weixin.qq.com/cgi-bin/mmsupportmeshnodelogicsvr-bin/cube?biz=3512&label=wx110.support.portal&action=desktop"
+</script>
+            <script>
+                !function(e){function t(i){if(s[i])return s[i].exports;var a=s[i]={exports:{},id:i,loaded:!1};return e[i].call(a.exports,a,a.exports,t),a.loaded=!0,a.exports}var s={};return t.m=e,t.c=s,t.p="//res.wx.qq.com/t/wx_fed/wx110/wx110/res/",t(0)}({0:function(e,t,s){e.exports=s(130)},130:function(e,t){!function(e,t){function s(){var e=t.body.clientHeight,s=t.documentElement.clientHeight;/static/.test(i.className)&&(e-=a),e+a>s?/static/.test(i.className)||(i.className+=" static"):i.className=i.className.replace(/\s?static/,"")}var i=t.getElementById("foot"),a=i.clientHeight;s(),e.addEventListener?(e.addEventListener("resize",s,!1),e.addEventListener("load",s,!1)):(e.attachEvent("onresize",s),e.attachEvent("onload",s)),e.footFixed=s}(window,document)},155:function(e,t){},156:function(e,t){},163:function(e,t){}});
+            </script>
+    </body>
+
+</html>  

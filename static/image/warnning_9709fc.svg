@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Element / Icon - Warnning_Small</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon-_('图标')" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon-/-Input-/-warning" fill="#F76260">
+            <g id="Element-/-Icon-/-Warnning_Small">
+                <path d="M18,9.11111111 C18,13.9706667 13.9706667,18 8.88888889,18 C4.02933333,18 0,13.9706667 0,9.11111111 C0,4.02933333 4.02933333,0 8.88888889,0 C13.9706667,0 18,4.02933333 18,9.11111111 Z M8.39723339,4.5 C8.23307592,4.5 8.10626593,4.63158445 8.11446962,4.80386209 L8.4,10.8 L9.6,10.8 L9.88553038,4.80386209 C9.89352173,4.63604369 9.75875702,4.5 9.60276661,4.5 L8.39723339,4.5 Z M9,13.5 C9.49705627,13.5 9.9,13.0970563 9.9,12.6 C9.9,12.1029437 9.49705627,11.7 9,11.7 C8.50294373,11.7 8.1,12.1029437 8.1,12.6 C8.1,13.0970563 8.50294373,13.5 9,13.5 Z" id="Warnning---Small"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1 @@
+.app_container.app{-webkit-animation:delay_fadein 5s linear;animation:delay_fadein 5s linear}.switch-login_tips{text-align:center;margin-top:90px;font-weight:400}@-webkit-keyframes delay_fadein{0%{opacity:0}90%{opacity:0}to{opacity:1}}@keyframes delay_fadein{0%{opacity:0}90%{opacity:0}to{opacity:1}}
